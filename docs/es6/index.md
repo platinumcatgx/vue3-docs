@@ -285,7 +285,6 @@ Object.defineProperty(obj, 'a', {
     console.log(`开始读取属性`)
     return 1; 
   },
-  writable : true
 })
 
 obj.a = 2 // 开始设置新值: 2
